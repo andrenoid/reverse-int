@@ -9,6 +9,7 @@ module.exports = function reverse (n) {
         str = String(n);
         str = str.split('').reverse().join('');
         str = Number(str);
-        return str * (-1);
+        //str = str * (-1)
+        return str;
     }
 }
